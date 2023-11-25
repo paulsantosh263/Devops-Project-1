@@ -3,7 +3,8 @@ The project is about automating the deployment process of a web application usin
 <br>
 1.<h3>Steps:<br></h3>
 Go to EC2 console and Create an EC2 instance.<br>
-<img width="960" alt="image" src="https://github.com/paulsantosh263/Automating-Web-App-Deployment-with-Jenkins-Declarative-Pipeline./assets/58592054/596e007e-cd91-4869-983a-aac44ca3889c">
+<img width="960" alt="image" src="https://github.com/paulsantosh263/Devops-Project-1/assets/58592054/b4496c0e-0adc-48b9-9308-4b386c9a9ed4">
+
 
 <br>
 <h3>Step 2: Install jenkins and Docker on AWS EC2 Ubuntu instance.<br></h3><br>
@@ -11,23 +12,26 @@ Browse instance-public-IP:8080 it will open jenkins dashboard.<br>
 Go to Jenkins Dashboard and Click on “New Item”
 
 <br>
-<img width="960" alt="image" src="https://github.com/paulsantosh263/Automating-Web-App-Deployment-with-Jenkins-Declarative-Pipeline./assets/58592054/0f1c6398-eca5-48cd-83cb-c7239faca236">
+<img width="960" alt="image" src="https://github.com/paulsantosh263/Devops-Project-1/assets/58592054/332b8be6-f962-41dc-b8c3-35d07dba9105">
+
 <br>
 Give your project a name and select “Pipeline” as the project type.
 
 <br>
-<img width="958" alt="image" src="https://github.com/paulsantosh263/Automating-Web-App-Deployment-with-Jenkins-Declarative-Pipeline./assets/58592054/c076ccb0-4f1f-4e72-8ecd-9c85b00f9ae7">
+
 <br>
 Go to project configuration page
 
 <br>
-<img width="960" alt="image" src="https://github.com/paulsantosh263/Automating-Web-App-Deployment-with-Jenkins-Declarative-Pipeline./assets/58592054/a85885fe-ccd6-4f8f-a68e-b256fbfe4f0d">
+<img width="960" alt="image" src="https://github.com/paulsantosh263/Devops-Project-1/assets/58592054/4e0ae3d7-efcd-4396-ac0a-b58d2114abd9">
+
 <br>
 
 Now go to the pipeline session, In definition select Pipeline script
 <br>
 Write a pipeline script<br>
-<img width="960" alt="image" src="https://github.com/paulsantosh263/Automating-Web-App-Deployment-with-Jenkins-Declarative-Pipeline./assets/58592054/cac7c05c-77dc-4e08-9a9f-6910367e3fd4">
+<img width="948" alt="image" src="https://github.com/paulsantosh263/Devops-Project-1/assets/58592054/c5aed7fe-3f39-4040-8f04-e1a052399051">
+
 <br>
 Steps:
 <br>
@@ -39,21 +43,22 @@ Build the project. You can manually build the project by clicking on the “Buil
 Build is successfully completed.
 <br>
 <br>
-<img width="960" alt="image" src="https://github.com/paulsantosh263/Automating-Web-App-Deployment-with-Jenkins-Declarative-Pipeline./assets/58592054/93f6c436-7dfb-4d39-abff-3edbf1619750">
+
 <br>
 <br>
 Docker image and container is created using jenkins pipeline.
 
 <br>
 <br>
-<img width="512" alt="image" src="https://github.com/paulsantosh263/Automating-Web-App-Deployment-with-Jenkins-Declarative-Pipeline./assets/58592054/bb5d3bf0-9411-471c-beaf-76059a62ec19">
+<img width="960" alt="image" src="https://github.com/paulsantosh263/Devops-Project-1/assets/58592054/7ff438f9-201d-4c46-8292-f5b28106af0a">
+
 <br>
 <br>
 Browse public IP address with port no.8000
 <br>
 <br>
 
-<img width="960" alt="image" src="https://github.com/paulsantosh263/Automating-Web-App-Deployment-with-Jenkins-Declarative-Pipeline./assets/58592054/79727bf5-1298-476c-91e2-bd877ce1de6a">
+<img width="960" alt="image" src="https://github.com/paulsantosh263/Devops-Project-1/assets/58592054/7c79989e-9865-4e82-a869-2b5beeb2550d">
 
 
 <br>
